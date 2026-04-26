@@ -1,6 +1,8 @@
 package dev.biserman.takemybreathaway;
 
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectUtil;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.entity.living.LivingBreatheEvent;
@@ -52,6 +54,10 @@ public class TakeMyBreathAway {
         }
 
         if (event.getEntity() instanceof Player player && player.isCreative()) {
+            return;
+        }
+
+        if (MobEffectUtil.hasWaterBreathing(event.getEntity())) {
             return;
         }
 
