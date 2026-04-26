@@ -56,10 +56,7 @@ public class TakeMyBreathAway {
         }
 
         ResourceKey<Level> dim = event.getEntity().level().dimension();
-        LOGGER.info("Player is in dimension: {}", dim.location());
-        LOGGER.info("Dimensions to remove air from: {}", Config.DIMENSIONS.get());
         if (Config.DIMENSIONS.get().contains(dim.location().toString())) {
-            LOGGER.info("Removing air from player");
             event.setCanBreathe(false);
         }
     }
