@@ -1,13 +1,5 @@
 {
-  "itemGroup.takemybreathaway": "Example Mod Tab",
-  "block.takemybreathaway.example_block": "Example Block",
-  "item.takemybreathaway.example_item": "Example Item",
-
   "takemybreathaway.configuration.title": "TakeMyBreathAway Configs",
   "takemybreathaway.configuration.section.takemybreathaway.common.toml": "TakeMyBreathAway Configs",
-  "takemybreathaway.configuration.section.takemybreathaway.common.toml.title": "TakeMyBreathAway Configs",
-  "takemybreathaway.configuration.items": "Item List",
-  "takemybreathaway.configuration.logDirtBlock": "Log Dirt Block",
-  "takemybreathaway.configuration.magicNumberIntroduction": "Magic Number Text",
-  "takemybreathaway.configuration.magicNumber": "Magic Number"
+  "takemybreathaway.configuration.section.takemybreathaway.common.toml.title": "TakeMyBreathAway Configs"
 }
